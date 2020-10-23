@@ -2,10 +2,6 @@ import numpy as np
 import skfuzzy as fuzz
 from skfuzzy import control as ctrl
 
-''''
-Obs.: Eu tentei fazer conforme os slides da aula postado no classroom(Curso de IA - Parte 4, Págs. 37 e 38), utilizando os mesmos nomes das variáveis, as mesmas funções de pertinência ou aproximações e também os mesmos intervalos.
-'''
-
 #Criando as variáveis
 qualidade_da_comida = ctrl.Antecedent(np.arange(0, 11, 1), 'qualidade_da_comida')
 atendimento = ctrl.Antecedent(np.arange(0, 11, 1), 'atendimento')
