@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "appgorjeta"
+version = "0.1.0"
+description = ""
+authors = ["GeovaniMelo <<>>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pip = "^22.2.2"
+pip-upgrader = "^1.4.15"
+scikit-fuzzy = "^0.4.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
