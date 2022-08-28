@@ -43,3 +43,4 @@ print(gorjeta_simulador.output['gorjeta'])
 qualidade_da_comida.view(sim=gorjeta_simulador)
 atendimento.view(sim=gorjeta_simulador)
 gorjeta.view(sim=gorjeta_simulador)
+
