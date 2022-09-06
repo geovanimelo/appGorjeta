@@ -38,7 +38,7 @@ gorjeta_simulador.input['atendimento'] = 1.0
 
 #Mostrando a saída e os gráficos
 gorjeta_simulador.compute()
-print(gorjeta_simulador.output['gorjeta'])
+print("Gorjeta = R$ {}".format(gorjeta_simulador.output['gorjeta']))
 
 qualidade_da_comida.view(sim=gorjeta_simulador)
 atendimento.view(sim=gorjeta_simulador)
